@@ -6,7 +6,9 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+rock_core = { path = "crates/rock_core" }
 rock_server = { path = "crates/rock_server" }
+rock_network = { path = "crates/rock_network" }
 
 [workspace]
 members = [
